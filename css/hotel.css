@@ -1,0 +1,256 @@
+/* Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+html,body{
+    font-family: sans-serif;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    display: inline;
+}
+#navbar ul li a{
+    display: inline-block;
+    padding: 25px;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color: #444;
+    color: #f7c08a;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+.text-primary{
+    color: #f7c08a;
+}
+.lead{
+    font-size: 20px;
+}
+.btn{
+   display: inline-block;
+   font-size: 18px;
+   color: #fff;
+   background-color: #333; 
+   padding: 13px 20px;
+   border:none;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.btn-light{
+    background-color: #f4f4f4f4;
+    color: #333;
+}
+.btn-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-light{
+    background-color: #f4f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-primary{
+    background-color: #f7c08a;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+
+/* showcase styleing */
+#showcase{
+    background-image: url(../img/hotel/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.showcase-contact{
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+.showcase-contact h1{
+    font-size: 60px;
+}
+.showcase-contact p{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/hotel/photo-1.jpg);
+}
+#home-info .info-content{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #333;
+    color: #fff;
+}
+#home-info .info-content p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.box{
+    width: 33.3%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+footer span{
+    color: chocolate;
+    text-transform: uppercase;
+}
+footer p a{
+    color:rgb(255, 255, 255);
+}
+
+/* abour css */
+#about-info{
+    padding: 95px 0;
+    display: inline-block;
+    width: 100%;
+}
+#about-info .info-right{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+ #testimonials{
+     height: 600px;
+     padding-top: 100px;
+     background-image: url(../img/hotel/test-bg.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ #testimonials h2{
+     color: #fff;
+     text-align: center;
+     padding-bottom: 40px;
+     font-size: 54px;
+ }
+ #testimonials .testimonials{
+     padding: 20px;
+     margin-bottom: 40px;
+     border-radius: 5px;
+     opacity: 0.9;
+}
+#testimonials .testimonials img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+
+#contacr-form {
+    padding: 20px 0;
+}
+#contacr-form h1{
+    font-size: 32px;
+}
+#contacr-form p{
+    font-size:2rem ;
+}
+#contacr-form .form-group{
+    margin-bottom:20px ;
+}
+
+#contacr-form  input,
+#contacr-form  textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* Contact */
+#contact-info{
+    display: inline-block;
+    width: 100%;
+}
+.form-group input,textarea{
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
